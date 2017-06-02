@@ -1,0 +1,858 @@
+.login-page-content {
+  height: 100vh;
+  width: 100%;
+  text-align: center; }
+  .login-page-content #account-input {
+    width: 75%;
+    padding: 0.6rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 50vh; }
+  .login-page-content #password-input {
+    width: 75%;
+    padding: 0.6rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1vh; }
+  .login-page-content #login-botton {
+    width: 75%;
+    margin-top: 1vh;
+    background-color: #FF359A;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    font-size: 0.9rem; }
+  .login-page-content #go-register-botton {
+    margin-top: 2vh;
+    width: 75%;
+    background-color: #FF60AF;
+    border: none;
+    color: white;
+    font-size: 0.9rem; }
+
+.register-page-content {
+  display: none;
+  text-align: center; }
+  .register-page-content #phone-register {
+    width: 75%;
+    padding: 0.6rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 50vh; }
+  .register-page-content #account-register {
+    width: 75%;
+    padding: 0.6rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1vh; }
+  .register-page-content #password-register {
+    width: 75%;
+    padding: 0.6rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1vh; }
+  .register-page-content #register-botton {
+    width: 75%;
+    margin-top: 1vh;
+    background-color: #FF359A;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    font-size: 0.9rem; }
+  .register-page-content #go-login-botton {
+    margin-top: 2vh;
+    width: 75%;
+    background-color: #FF60AF;
+    border: none;
+    color: white;
+    font-size: 0.9rem; }
+
+.newsfeed-page-content {
+  height: 92%;
+  width: 100%;
+  display: none; }
+  .newsfeed-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: center; }
+    .newsfeed-page-content .nav-bar #search-bar {
+      width: 70%;
+      border: 1px solid #D9006C;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 1.5vh;
+      height: 5vh;
+      font-size: 1rem;
+      color: white;
+      background-color: #D9006C; }
+  .newsfeed-page-content .newsfeed-btn-group {
+    margin-top: 2%;
+    height: 5%;
+    border-bottom: 1px solid #ccc; }
+    .newsfeed-page-content .newsfeed-btn-group #newsfeed-btn-newest {
+      float: right;
+      background-color: white;
+      height: 100%;
+      border: 1px solid white;
+      width: 15vw;
+      font-size: 1rem;
+      color: #8E8E8E; }
+    .newsfeed-page-content .newsfeed-btn-group #newsfeed-btn-hottest {
+      float: right;
+      background-color: white;
+      height: 100%;
+      border: 1px solid white;
+      width: 15vw;
+      font-size: 1rem;
+      color: #8E8E8E; }
+  .newsfeed-page-content .all-newsfeed-content {
+    overflow-y: scroll;
+    height: 85%;
+    width: 100%;
+    padding-top: 5%; }
+    .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content {
+      width: 100%;
+      margin-bottom: 5vh; }
+      .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .post-img {
+        width: 95%;
+        margin-top: 2vh;
+        margin-left: 2.5%; }
+      .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .channel-profile-content {
+        width: 100%; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .channel-profile-content img {
+          width: 12%;
+          float: left;
+          margin-left: 2.5%; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .channel-profile-content .channel-name {
+          font-size: 0.8rem; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .channel-profile-content .create-time {
+          font-size: 0.8rem;
+          color: #8E8E8E; }
+      .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content {
+        margin-left: 2.5%;
+        width: 95%; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content font {
+          font-size: 0.8rem; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content .keep-reading {
+          color: #FF3399; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content hr {
+          width: 95vw;
+          color: #BEBEBE; }
+        .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content .client-button {
+          height: 5vh; }
+          .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content .client-button button {
+            float: left;
+            width: 33.3%; }
+            .newsfeed-page-content .all-newsfeed-content .single-newsfeed-content .text-content .client-button button img {
+              height: 3vh; }
+
+.bottom-bar {
+  z-index: 99;
+  display: none;
+  height: 8vh;
+  width: 100%;
+  border-top: 1px solid #BEBEBE;
+  position: fixed;
+  background-color: white; }
+  .bottom-bar button {
+    float: left;
+    width: 20%;
+    height: 100%; }
+    .bottom-bar button img {
+      height: 60%; }
+
+.post-page-content {
+  height: 100%;
+  width: 100%;
+  display: none; }
+  .post-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    line-height: 8vh;
+    color: white; }
+    .post-page-content .nav-bar .return-button {
+      float: left;
+      width: 33.3%;
+      color: white;
+      height: 100%;
+      text-align: left; }
+    .post-page-content .nav-bar .page-title {
+      float: left;
+      width: 33.3%;
+      color: white;
+      height: 100%;
+      text-align: center;
+      font-size: 1rem; }
+    .post-page-content .nav-bar .post-button {
+      float: left;
+      width: 33.3%;
+      color: white;
+      height: 100%;
+      font-size: 0.8rem;
+      text-align: right; }
+  .post-page-content .choose-post-channel {
+    margin-top: 3%;
+    width: 94%;
+    height: 8%;
+    padding-left: 3%; }
+    .post-page-content .choose-post-channel .channel-img {
+      float: left;
+      height: 100%; }
+      .post-page-content .choose-post-channel .channel-img img {
+        height: 100%;
+        float: left;
+        margin-left: 4%; }
+    .post-page-content .choose-post-channel .channel-profile {
+      float: left;
+      height: 100%;
+      padding-left: 4vw; }
+      .post-page-content .choose-post-channel .channel-profile .channel-name {
+        float: left;
+        width: 100%;
+        height: 50%; }
+        .post-page-content .choose-post-channel .channel-profile .channel-name font {
+          color: #FF3399;
+          font-weight: bold; }
+      .post-page-content .choose-post-channel .channel-profile .choose-others-channel {
+        float: left;
+        width: 100%;
+        height: 50%; }
+        .post-page-content .choose-post-channel .channel-profile .choose-others-channel font {
+          color: #BEBEBE;
+          font-size: 0.6rem; }
+  .post-page-content .text-content {
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 72%;
+    width: 94%;
+    overflow-y: scroll; }
+    .post-page-content .text-content textarea {
+      height: 80%;
+      width: 100%; }
+  .post-page-content .file-tag {
+    bottom: 0px;
+    border-top: 1px solid #BEBEBE;
+    background-color: white;
+    height: 7.5%; }
+    .post-page-content .file-tag button {
+      position: relative;
+      width: 40%;
+      height: 100%;
+      float: left;
+      text-align: left; }
+      .post-page-content .file-tag button input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        height: 100%;
+        width: 100%; }
+      .post-page-content .file-tag button img {
+        height: 80%;
+        vertical-align: middle; }
+
+.channel-profile-page-content {
+  display: none;
+  height: 92%;
+  overflow-x: scroll; }
+  .channel-profile-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: center; }
+    .channel-profile-page-content .nav-bar button {
+      height: 100%;
+      float: left;
+      width: 33.3%;
+      color: white;
+      font-size: 1rem; }
+      .channel-profile-page-content .nav-bar button img {
+        height: 60%;
+        float: left; }
+      .channel-profile-page-content .nav-bar button .img-setting {
+        height: 60%;
+        float: right; }
+  .channel-profile-page-content .channel-profile {
+    text-align: center;
+    width: 100%;
+    height: 70%; }
+    .channel-profile-page-content .channel-profile .wall-paper {
+      width: 100%; }
+    .channel-profile-page-content .channel-profile .profile-img {
+      width: 25%;
+      margin-top: -15%;
+      border-radius: 100%;
+      border: 1px solid white; }
+    .channel-profile-page-content .channel-profile .channel-name {
+      color: #FF3399;
+      font-size: 1rem;
+      font-weight: bold; }
+    .channel-profile-page-content .channel-profile .follow-button {
+      background-color: #FF0099;
+      border: 1px solid #FF0099;
+      color: white;
+      width: 60%;
+      height: 5vh; }
+    .channel-profile-page-content .channel-profile .follow-and-post {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 2vh;
+      color: #8E8E8E;
+      height: 4vh; }
+      .channel-profile-page-content .channel-profile .follow-and-post span {
+        width: 50%;
+        float: left;
+        font-size: 0.8rem; }
+    .channel-profile-page-content .channel-profile .channel-newsfeed-or-img {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      height: 4vh;
+      margin-top: 2vh; }
+      .channel-profile-page-content .channel-profile .channel-newsfeed-or-img .button-left {
+        background-color: white;
+        border: 1px solid white;
+        float: left;
+        width: 20%;
+        height: 100%;
+        font-size: 0.9rem;
+        margin-left: 20%; }
+      .channel-profile-page-content .channel-profile .channel-newsfeed-or-img .button-right {
+        background-color: white;
+        border: 1px solid white;
+        float: left;
+        width: 20%;
+        height: 100%;
+        font-size: 0.9rem; }
+  .channel-profile-page-content .channel-newsfeed-or-img {
+    width: 100%;
+    padding-left: 0.5%; }
+    .channel-profile-page-content .channel-newsfeed-or-img img {
+      width: 32%; }
+  .channel-profile-page-content .unopen-title {
+    display: none;
+    margin-top: 10%;
+    text-align: center; }
+
+.friends-page-content {
+  display: none;
+  height: 92%;
+  overflow-x: scroll; }
+  .friends-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: center; }
+    .friends-page-content .nav-bar button {
+      height: 100%;
+      color: white;
+      font-size: 1rem; }
+  .friends-page-content .friends-list {
+    height: 92%;
+    overflow-y: scroll;
+    width: 100%; }
+    .friends-page-content .friends-list .single-friend-invite {
+      height: 8vh;
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      line-height: 8vh; }
+      .friends-page-content .friends-list .single-friend-invite img {
+        height: 6vh;
+        margin-left: 3%;
+        vertical-align: middle;
+        margin-top: 1vh;
+        float: left; }
+      .friends-page-content .friends-list .single-friend-invite .friend-id {
+        color: #FF3399;
+        margin-left: 2vw;
+        font-weight: bold; }
+      .friends-page-content .friends-list .single-friend-invite .button-cancel {
+        font-size: 0.5rem;
+        float: right;
+        margin-top: 1.5vh;
+        height: 5vh;
+        border-radius: 1rem;
+        background-color: white;
+        width: 15vw;
+        border: 1px solid #ccc;
+        color: #8E8E8E;
+        margin-right: 2vw; }
+      .friends-page-content .friends-list .single-friend-invite .button-confirm {
+        float: right;
+        margin-top: 1.5vh;
+        height: 5vh;
+        border-radius: 1rem;
+        background-color: #FF3399;
+        width: 15vw;
+        border: 1px solid #FF3399;
+        color: white;
+        margin-right: 2vw; }
+
+.bell-page-content {
+  display: none;
+  height: 92%;
+  overflow-x: scroll; }
+  .bell-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: center; }
+    .bell-page-content .nav-bar button {
+      height: 100%;
+      color: white;
+      font-size: 1rem; }
+  .bell-page-content .bell-list {
+    height: 92%;
+    overflow-y: scroll;
+    width: 100%; }
+    .bell-page-content .bell-list .single-bell-content {
+      height: 8vh;
+      width: 100%;
+      border-bottom: 1px solid #BEBEBE;
+      line-height: 8vh;
+      background-color: #FCFCFC; }
+      .bell-page-content .bell-list .single-bell-content img {
+        height: 6vh;
+        margin-left: 3%;
+        vertical-align: middle;
+        margin-top: 1vh;
+        float: left; }
+      .bell-page-content .bell-list .single-bell-content .user-id {
+        color: #FF3399;
+        margin-left: 2vw;
+        font-weight: bold;
+        float: left; }
+      .bell-page-content .bell-list .single-bell-content .bell-content-text {
+        color: #8E8E8E;
+        margin-left: 2vw;
+        font-size: 0.5rem;
+        float: left; }
+
+.other-page-content {
+  display: none;
+  height: 92%;
+  overflow-x: scroll; }
+  .other-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: center; }
+    .other-page-content .nav-bar .setting-button {
+      height: 100%;
+      float: right;
+      vertical-align: middle;
+      width: 33.3%; }
+      .other-page-content .nav-bar .setting-button img {
+        height: 70%;
+        float: right; }
+    .other-page-content .nav-bar .page-title {
+      height: 100%;
+      width: 33.3%;
+      float: right;
+      color: white;
+      font-size: 1rem; }
+  .other-page-content .user-profile {
+    text-align: center;
+    height: 20%;
+    margin-top: 2%;
+    width: 100%; }
+    .other-page-content .user-profile .profile-headimg {
+      position: relative;
+      height: 75%;
+      width: 100%; }
+      .other-page-content .user-profile .profile-headimg input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        height: 100%;
+        width: 100%; }
+      .other-page-content .user-profile .profile-headimg img {
+        border-radius: 100px;
+        height: 100%; }
+    .other-page-content .user-profile .profile-name {
+      height: 21%;
+      margin-top: 5%;
+      width: 100%; }
+      .other-page-content .user-profile .profile-name button {
+        height: 100%; }
+        .other-page-content .user-profile .profile-name button font {
+          color: #FF3399;
+          font-weight: bold;
+          font-size: 1.2rem; }
+        .other-page-content .user-profile .profile-name button img {
+          height: 100%; }
+  .other-page-content .other-page-btn-group {
+    width: 40%;
+    margin-top: 8%;
+    height: 5%;
+    border-bottom: 1px solid #8E8E8E;
+    margin-left: 30%;
+    margin-right: 30%; }
+    .other-page-content .other-page-btn-group button {
+      height: 100%;
+      width: 33.3%;
+      float: left;
+      font-size: 1rem;
+      color: #8E8E8E; }
+  .other-page-content .add-new-channel {
+    height: 10%;
+    width: 100%;
+    text-align: center; }
+    .other-page-content .add-new-channel button {
+      height: 100%;
+      color: #FF3399; }
+
+.single-newsfeed-page-content {
+  height: 92%;
+  width: 100%;
+  display: none; }
+  .single-newsfeed-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: center; }
+    .single-newsfeed-page-content .nav-bar .return-button {
+      width: 15%;
+      float: left;
+      height: 5vh;
+      margin-top: 1.5vh; }
+      .single-newsfeed-page-content .nav-bar .return-button img {
+        height: 100%; }
+    .single-newsfeed-page-content .nav-bar #search-bar {
+      float: left;
+      width: 70%;
+      border: 1px solid #D9006C;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 1.5vh;
+      height: 5vh;
+      font-size: 1rem;
+      color: white;
+      background-color: #D9006C; }
+  .single-newsfeed-page-content .all-content {
+    height: 92%;
+    margin-top: 2%;
+    width: 100%;
+    overflow-y: scroll; }
+    .single-newsfeed-page-content .all-content .single-newsfeed-content {
+      width: 100%; }
+      .single-newsfeed-page-content .all-content .single-newsfeed-content .post-img {
+        width: 95%;
+        margin-top: 2vh;
+        margin-left: 2.5%; }
+      .single-newsfeed-page-content .all-content .single-newsfeed-content .channel-profile-content {
+        width: 100%; }
+        .single-newsfeed-page-content .all-content .single-newsfeed-content .channel-profile-content img {
+          width: 12%;
+          float: left;
+          margin-left: 2.5%; }
+        .single-newsfeed-page-content .all-content .single-newsfeed-content .channel-profile-content .channel-name {
+          font-size: 0.8rem; }
+        .single-newsfeed-page-content .all-content .single-newsfeed-content .channel-profile-content .create-time {
+          font-size: 0.8rem;
+          color: #8E8E8E; }
+      .single-newsfeed-page-content .all-content .single-newsfeed-content .text-content {
+        margin-left: 2.5%;
+        width: 95%; }
+        .single-newsfeed-page-content .all-content .single-newsfeed-content .text-content font {
+          font-size: 0.8rem; }
+        .single-newsfeed-page-content .all-content .single-newsfeed-content .text-content .keep-reading {
+          color: #FF3399; }
+        .single-newsfeed-page-content .all-content .single-newsfeed-content .text-content .client-button {
+          height: 5vh;
+          border-top: 1px solid #BEBEBE;
+          border-bottom: 1px solid #BEBEBE; }
+          .single-newsfeed-page-content .all-content .single-newsfeed-content .text-content .client-button button {
+            float: left;
+            width: 33.3%; }
+            .single-newsfeed-page-content .all-content .single-newsfeed-content .text-content .client-button button img {
+              height: 3vh; }
+    .single-newsfeed-page-content .all-content .all-single-newsfeed-comments {
+      width: 95%;
+      margin-left: 2.5%; }
+      .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content {
+        height: 13vh;
+        width: 100%;
+        line-height: 3vh;
+        border-bottom: 1px solid #BEBEBE; }
+        .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-top {
+          width: 100%;
+          height: 48%;
+          float: left; }
+          .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-top .comment-profile {
+            height: 100%;
+            float: left; }
+          .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-top .comment-UserId {
+            color: #FF3399;
+            font-size: 0.8rem; }
+          .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-top button {
+            height: 50%;
+            float: right;
+            color: #FF3399; }
+            .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-top button img {
+              height: 100%; }
+          .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-top .comment-create-time {
+            color: #8E8E8E;
+            font-size: 0.8rem; }
+        .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-bottom {
+          width: 100%;
+          height: 48%;
+          float: left;
+          margin-left: 6vh;
+          margin-top: 2%; }
+          .single-newsfeed-page-content .all-content .all-single-newsfeed-comments .single-comment-content .single-comment-bottom font {
+            margin-top: 20%; }
+
+.newsfeed-comment-page-content {
+  height: 100%;
+  width: 100%;
+  display: none; }
+  .newsfeed-comment-page-content .nav-bar {
+    height: 8%;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #BEBEBE; }
+    .newsfeed-comment-page-content .nav-bar .return-button {
+      width: 33.3%;
+      float: left;
+      height: 100%;
+      text-align: left; }
+      .newsfeed-comment-page-content .nav-bar .return-button button {
+        margin-top: 5%;
+        height: 80%;
+        width: 50%;
+        border-radius: 0.8rem;
+        border: 1px solid #ccc;
+        background-color: white;
+        margin-left: 2vw; }
+    .newsfeed-comment-page-content .nav-bar .page-title {
+      float: left;
+      width: 33.3%;
+      height: 100%;
+      font-size: 1.2rem; }
+  .newsfeed-comment-page-content .all-single-newsfeed-comments {
+    width: 95%;
+    height: 86%;
+    margin-left: 2.5%;
+    overflow-y: scroll; }
+    .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content {
+      height: 15%;
+      width: 100%;
+      line-height: 3vh;
+      border-bottom: 1px solid #BEBEBE;
+      padding-top: 2%; }
+      .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-top {
+        width: 100%;
+        height: 45%;
+        float: left; }
+        .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-top .comment-profile {
+          height: 100%;
+          float: left; }
+        .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-top .comment-UserId {
+          color: #FF3399;
+          font-size: 0.8rem; }
+        .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-top button {
+          height: 50%;
+          float: right;
+          color: #FF3399; }
+          .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-top button img {
+            height: 100%; }
+        .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-top .comment-create-time {
+          color: #8E8E8E;
+          font-size: 0.8rem; }
+      .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-bottom {
+        width: 100%;
+        height: 45%;
+        float: left;
+        margin-left: 6vh;
+        margin-top: 2%; }
+        .newsfeed-comment-page-content .all-single-newsfeed-comments .single-comment-content .single-comment-bottom font {
+          margin-top: 20%; }
+  .newsfeed-comment-page-content .comment-input {
+    position: fixed;
+    height: 6%;
+    width: 100%;
+    border-top: 1px solid #BEBEBE; }
+    .newsfeed-comment-page-content .comment-input .file-choose {
+      float: left;
+      height: 100%;
+      width: 15%; }
+      .newsfeed-comment-page-content .comment-input .file-choose img {
+        height: 90%; }
+    .newsfeed-comment-page-content .comment-input .text-area-content {
+      height: 100%;
+      width: 70%;
+      text-align: center;
+      float: left; }
+      .newsfeed-comment-page-content .comment-input .text-area-content input[type="textarea"] {
+        float: left;
+        width: 100%;
+        border: 1px solid grey;
+        height: 75%;
+        margin-top: 1%; }
+    .newsfeed-comment-page-content .comment-input .button-to-comment {
+      float: left;
+      width: 15%;
+      height: 100%; }
+      .newsfeed-comment-page-content .comment-input .button-to-comment font {
+        font-size: 0.8rem;
+        color: #6C6C6C; }
+
+.img-upload-preview-page-content {
+  height: 100%;
+  width: 100%;
+  display: none; }
+  .img-upload-preview-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    line-height: 8vh;
+    color: white; }
+    .img-upload-preview-page-content .nav-bar .return-button {
+      float: left;
+      width: 33.3%;
+      color: white;
+      height: 100%;
+      text-align: left; }
+    .img-upload-preview-page-content .nav-bar .page-title {
+      float: left;
+      width: 33.3%;
+      color: white;
+      height: 100%;
+      text-align: center;
+      font-size: 1rem; }
+    .img-upload-preview-page-content .nav-bar .post-button {
+      float: left;
+      width: 33.3%;
+      color: white;
+      height: 100%;
+      font-size: 0.8rem;
+      text-align: right; }
+  .img-upload-preview-page-content img {
+    width: 100%; }
+
+.create-channel-page-content {
+  display: none;
+  height: 92%;
+  overflow-x: scroll; }
+  .create-channel-page-content .nav-bar {
+    height: 8%;
+    background-color: #FF60AF;
+    width: 100%;
+    text-align: left; }
+    .create-channel-page-content .nav-bar button {
+      height: 100%;
+      float: left;
+      width: 33.3%;
+      color: white;
+      font-size: 1rem; }
+      .create-channel-page-content .nav-bar button img {
+        height: 60%;
+        float: left; }
+      .create-channel-page-content .nav-bar button .img-setting {
+        height: 60%;
+        float: right; }
+      .create-channel-page-content .nav-bar button font {
+        font-size: 0.5em;
+        float: right;
+        color: white; }
+  .create-channel-page-content .channel-profile {
+    text-align: center;
+    width: 100%;
+    height: 70%; }
+    .create-channel-page-content .channel-profile .wall-paper {
+      position: relative;
+      width: 100%; }
+      .create-channel-page-content .channel-profile .wall-paper input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        height: 100%;
+        width: 100%; }
+      .create-channel-page-content .channel-profile .wall-paper img {
+        width: 100%; }
+    .create-channel-page-content .channel-profile .profile-img {
+      position: relative;
+      width: 25%;
+      margin-top: -15%;
+      text-align: center;
+      margin-left: 37.5%; }
+      .create-channel-page-content .channel-profile .profile-img input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        height: 100%;
+        width: 100%; }
+      .create-channel-page-content .channel-profile .profile-img img {
+        border-radius: 100%;
+        border: 1px solid white;
+        width: 100%; }
+    .create-channel-page-content .channel-profile .channel-name {
+      color: #FF3399;
+      font-size: 1rem;
+      font-weight: bold; }
+    .create-channel-page-content .channel-profile .follow-button {
+      background-color: #FF0099;
+      border: 1px solid #FF0099;
+      color: white;
+      width: 60%;
+      height: 5vh; }
+    .create-channel-page-content .channel-profile .follow-and-post {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 2vh;
+      color: #8E8E8E;
+      height: 4vh; }
+      .create-channel-page-content .channel-profile .follow-and-post span {
+        width: 50%;
+        float: left;
+        font-size: 0.8rem; }
+    .create-channel-page-content .channel-profile .channel-newsfeed-or-img {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      height: 4vh;
+      margin-top: 2vh; }
+      .create-channel-page-content .channel-profile .channel-newsfeed-or-img .button-left {
+        background-color: white;
+        border: 1px solid white;
+        float: left;
+        width: 20%;
+        height: 100%;
+        font-size: 0.9rem;
+        margin-left: 20%; }
+      .create-channel-page-content .channel-profile .channel-newsfeed-or-img .button-right {
+        background-color: white;
+        border: 1px solid white;
+        float: left;
+        width: 20%;
+        height: 100%;
+        font-size: 0.9rem; }
+  .create-channel-page-content .channel-newsfeed-or-img {
+    width: 98%;
+    height: 10%;
+    padding-left: 0.5%; }
+    .create-channel-page-content .channel-newsfeed-or-img img {
+      width: 32%; }
+  .create-channel-page-content .unopen-title {
+    margin-top: 10%;
+    text-align: center;
+    color: #8E8E8E; }
+
+body {
+  background-color: #FF60AF;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

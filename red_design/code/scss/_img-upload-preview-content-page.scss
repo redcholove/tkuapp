@@ -1,0 +1,38 @@
+.img-upload-preview-page-content{
+    height: 100%;
+    width: 100%;
+    display: none;
+    .nav-bar {
+        height: 8%;
+        background-color: $main-color;
+        width: 100%;
+        line-height: 8vh;
+        color: white;
+        .return-button {
+            float: left; 
+            width: 33.3%; 
+            color: white; 
+            height: 100%; 
+            text-align: left;
+        }
+        .page-title {
+            float: left; 
+            width: 33.3%; 
+            color: white; 
+            height: 100%;
+            text-align: center;
+            font-size: 1rem;
+        }
+        .post-button {
+            float: left; 
+            width: 33.3%; 
+            color: white; 
+            height: 100%; 
+            font-size: 0.8rem;
+            text-align: right;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}

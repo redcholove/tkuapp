@@ -1,0 +1,89 @@
+.other-page-content {
+    display: none;
+    height: 92%;
+    overflow-x: scroll;
+    .nav-bar {
+        height: 8%;
+        background-color: $main-color;
+        width: 100%;
+        text-align: center;
+        .setting-button {
+            height: 100%; 
+            float: right; 
+            vertical-align: middle; 
+            width: 33.3%;
+            img {
+                height: 70%; 
+                float: right;
+            }
+        }
+        .page-title {
+            height: 100%; 
+            width: 33.3%; 
+            float: right; 
+            color: white; 
+            font-size: 1rem;
+        }
+    }
+    .user-profile {
+        text-align: center; 
+        height: 20%; 
+        margin-top: 2%; 
+        width: 100%;
+        .profile-headimg {
+            position: relative;
+            height: 75%; 
+            width: 100%;
+            input[type="file"] {
+                position: absolute;
+                opacity: 0;
+                height: 100%;
+                width: 100%;
+            }
+            img {
+                border-radius: 100px;
+                height: 100%;
+            }
+        }
+        .profile-name {
+            height: 21%; 
+            margin-top: 5%;
+            width: 100%;
+            button {
+                height: 100%;
+                font {
+                    color: $main-text;
+                    font-weight: bold; 
+                    font-size: 1.2rem;
+                }
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+     .other-page-btn-group {
+            width: 40%; 
+            margin-top: 8%;
+            height: 5%; 
+            border-bottom: 1px solid $grey-text; 
+            margin-left: 30%;
+            margin-right: 30%;
+            button {
+                height: 100%; 
+                width: 33.3%;
+                float: left; 
+                font-size: 1rem;
+                color: $grey-text;
+            }
+        }
+        .add-new-channel {
+            height: 10%; 
+            width: 100%; 
+            text-align: center;
+            button {
+                height: 100%; 
+                color: #FF3399;
+            }
+        }
+}

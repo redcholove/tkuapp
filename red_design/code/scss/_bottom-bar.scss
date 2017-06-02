@@ -1,0 +1,17 @@
+.bottom-bar {
+    z-index: 99;
+    display: none;
+    height: 8vh; 
+    width: 100%;  
+    border-top: 1px solid $hr; 
+    position: fixed; 
+    background-color: white;
+    button {
+        float:left; 
+        width: 20%;
+        height: 100%;
+        img {
+            height: 60%;
+        }
+    }
+}
